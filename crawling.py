@@ -24,7 +24,7 @@ for movie in movies :
 for i in range(1, 20) :
   print(i, k[i-1])
 
-#예매율 출력 프로그램
+#개봉일 출력 프로그램
 
 ticket=int(input("개봉일을 알고싶은 영화의 순위를 입력해주세요>>> "))
 
@@ -34,3 +34,4 @@ j=[]
 for p in ps :
   j.append(p.get_text())
 print(j[ticket-1])
+
